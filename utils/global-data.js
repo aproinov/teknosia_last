@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'MSarif';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'UAE Time News';
+    : 'Teknosia';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
