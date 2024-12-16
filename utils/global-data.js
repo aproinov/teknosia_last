@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Teknosia';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Teknosia | Tutorial Tekno Indonesia';
+    : 'Tutorial Tekno Indonesia';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
